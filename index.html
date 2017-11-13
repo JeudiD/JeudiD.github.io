@@ -4,7 +4,7 @@
         <title>Dale's Litty Website</title>
         <style>
             body {
-                background: rgb(125, 198, 205);
+                background: rgb(100, 255, 255);
                 color: rgb(45, 45, 45);
                 padding: 10px;
                 font-family: arial;
@@ -15,12 +15,12 @@
             }
             [id=all-contents] {
                 max-width: 800px;
-                margin: auto;
+                margin: auto;¨
             }
     
             /* navigation menu */
             nav {
-                background: rgb(10, 40, 100);
+                background: rgb(2, 300, 255);
                 margin: 0 auto;
                 margin-bottom: 20px;
                 display: flex;
@@ -72,6 +72,14 @@
                 border-radius: 15px 50px;
 }
         </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+      $('li').css("color","turquoise");
+	});
+</script>
+
     </head>
     
     <body>
@@ -87,7 +95,9 @@
             <main>
                 <div class="sidebar">
                     <img src="https://i.pinimg.com/736x/90/b5/c2/90b5c2d01a3eb21b5213b40747c99647--film-fooly-cooly.jpg">
-                    <header>Dale</header>
+                </div>
+    <div class="content">
+                         <header>Dale</header>
                     <p>Student at Warren Easton</p>
                     <section class="interests">
                         <header>Interests</header>
@@ -98,8 +108,17 @@
                         </ul>
                     </section>
                 </div>
-    
+            </main>
+            <main>
                 <div class="content">
+                    <Header>My Professtional Interests</Header>
+                    <sectionclass="interests"></section>
+                    <button>Use me to see my professional interests</button>
+                    <ul>
+                    <li>Computer Engineer</li>
+                    <li>Gaming Developer</li>
+                    <li>Musician</li>
+                    </ul>
                 </div>
             </main>
         </div>
